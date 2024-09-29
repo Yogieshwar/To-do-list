@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(17, 14, 104);  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsla(186, 100%, 69%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 100%, 69%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 100%, 69%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+
+   background: -webkit-linear-gradient(90deg, hsla(186, 100%, 69%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#60EFFF", endColorstr="#0F68A9", GradientType=1 );
+    
+}
+.container{
+    background-color: #eef;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    
+
+}
+.todo-header{
+    margin: 10px 0px;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+    
+
+}
+.todo-body{
+    background-color: #d6dae2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+.todo-body input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    padding: 15px ;
+    font-weight: 700;
+}
+.todo-body i{
+    background-color: green;
+    padding: 7px;
+    border-radius: 50px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+ul li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #d6dae2;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+
+
+}
+.deletebtn{
+    padding: 2px 5px;
+}
+.editbtn{
+    padding: 2px 5px;
+}
+.deletebtn:hover{
+    color: orange;
+    border: 1px solid orange;
+}
+.editbtn:hover{
+    color: orange;
+    border: 1px solid orange;
+
+}
+.arrowup:hover{
+    color: orange;
+    border: 1px solid orange;
+}
+.arrowdown:hover{
+    color: orange;
+    border: 1px solid orange;
+}
+.arrowup{
+    padding: 2px 5px;
+
+}
+.arrowdown{
+    padding: 2px 5px;
+
+}
+@media  screen and (min-width:100px) and (max-width:576px){
+    .container{
+        width: 350px;
+        margin: 0px;
+    }
+    
+
+}
+
+
+
+
